@@ -10,8 +10,43 @@
         <h1>Flexboooooooox 🎁💪</h1>
 
         <!-- centering wtih flexbox -->
-        <div class="half-screen">
+        <div class="half-screen flex-center">
+            <p>hello i am text</p>
             <div class="square"></div>
         </div>
+
+        <!-- basic example -- flex for -->
+        <section class="flex-row">
+            <div class="square">1</div>
+            <div class="square">2</div>
+            <div class="square">3</div>
+            <div class="square">4</div>
+        </section>
+
+        <!-- flex columns of rows (columns nested inside rows) -->
+        <div class="flex-row flex-center">
+            <section class="flex-col flex-center">
+                <div class="square">5</div>
+                <div class="square">6</div>
+                <!-- <p>some text</p> -->
+                <div class="square">7</div>
+                <div class="square">8</div>
+            </section>
+
+            <section class="flex-col">
+                <div class="square">9</div>
+                <div class="square">10</div>
+                <div class="square">11</div>
+                <div class="square">12</div>
+            </section>
+
+            <section class="flex-col">
+                <div class="square">13</div>
+                <div class="square">14</div>
+                <div class="square">15</div>
+                <div class="square">16</div>
+            </section>
+        </div>
+
     </body>
 </html>
