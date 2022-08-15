@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: hotpink;
+}
+
+/* centering with flexbox */
+.half-screen {
+    background-color: chartreuse;
+    height: 50vh;
+}
+
+.square {
+    background-color: turquoise;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+}
